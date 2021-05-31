@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+form{
+    width: 700px;
+    margin: 200px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+input{
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    
+}
+select{
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+}
+#submit{
+    margin: 20px auto;
+}

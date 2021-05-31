@@ -1,0 +1,124 @@
+.main{
+    margin-top: 0;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    
+}
+.content{
+    flex-direction: column;
+}
+.owl-carousel{
+    width: 80%;
+    margin: 0 auto; 
+    text-align: center;
+    position: relative;
+    overflow: visible;
+}
+.item{
+    width: 200px;
+    height:200px;
+}
+.item-img{
+    width: 200px;
+    height:200px;
+    overflow: hidden;
+    border-bottom: none;
+}
+.item-img img{
+    width: 100%;
+}
+.owl-nav{
+    position: absolute;
+    top:50%;
+    left:-100px;
+    width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.owl-next{
+    outline: none;
+}
+.owl-prev{
+    outline: none;
+}
+.owl-prev span{
+    font-size: 50px!important;
+    color: #e2931a;
+   
+}
+.owl-next span{
+    font-size: 50px!important;
+    color: #e2931a;
+   
+}
+.owl-next span:hover{
+    color: #ffffff;
+
+}
+.about-partners{
+   width: 100%;
+   margin-top: 40px;
+ 
+}
+.partner-box{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Merienda', cursive;
+}
+.partner-name{
+    width: 15%;
+    padding: 0 10px 0 0;
+    color: #e2931a;
+    font-size: 20px;
+    text-shadow: 1px 1px #000000;
+}
+.partner-info{
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 17px;
+    height: 35px;
+    width: 80%;
+    overflow: hidden;
+    position: relative;
+}
+.partner-arrow{
+    width: 0; 
+    height: 0; 
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #e2931a; 
+     transition: 1s;
+}
+.partner-arrow:hover{
+    border-top: 10px solid #ffffff;
+    cursor: pointer;
+}
+.partner-arrow.top{
+    transform: rotate(180deg);
+  
+}
+.arrow-top{
+    width: 0; 
+    height: 0; 
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #ffffff;
+}
+.arrow-top:hover{
+    border-bottom: 10px solid #ffffff;
+    cursor: pointer;
+}
+.partner-box p{
+    height: 50px;
+    transition: 1s;
+
+}
+.partner-box p.long{
+    transition: 1s;
+    height: 100px;
+}

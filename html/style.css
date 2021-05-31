@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: green;
+}
+ul{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:0 auto;
+    font-size: 20px;
+    
+}
+ul li:first-child p{
+    font-size: 50px;
+    font-weight: bold;
+    color: green;
+    display: none;
+}
+/* @media only screen and (max-width: 720px) {
+    ul {
+      flex-direction: column;
+    }
+    ul li:first-child p{
+        display: block;
+      }
+  } */

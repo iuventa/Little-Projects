@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Pacifico', cursive; 
+}
+button:hover{
+    cursor:pointer;
+
+}
+button{
+    outline: none;
+}
+h2{
+    width:400px; 
+    margin:20px auto;
+    font-size: 30px;
+    text-align: center
+}
+.television{
+    width: 550px;
+    margin: 150px auto;
+    margin-bottom: 0px;
+    padding: 20px;
+    border-style: groove;
+     border-width: 7px;
+    border-color: grey;  
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.television:before{
+    content:"";
+    width: 3px;
+    height: 150px;
+    background-color: #000000;
+    position: absolute;
+    top:-150px;
+    left:150px;
+    transform: rotate(20deg);
+}
+.television:after{
+    content:"";
+    width: 3px;
+    height: 200px;
+    background-color: #000000;
+    position: absolute;
+    top:-200px;
+    left:50px;
+    transform: rotate(-20deg);
+}
+.screen{
+    width: 300px;
+    height: 300px;
+    border-radius: 20%;
+    border: 1px solid #000000;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.buttons{
+    width: 150px;
+    height: 300px;
+    display: flex;
+    border: 1px solid #000000;
+    border-radius: 30px;
+    flex-direction: column;
+    align-items: center;
+}
+.switch{
+    margin-top: 20px;
+    width: 110px;
+    display: flex;
+    justify-content: space-between;
+}
+.turn{
+    width:50px;
+    height:50px;
+    padding:10px;
+    border-radius:50%;
+    font-size: 14px;
+    text-align: center;
+    border:none;
+}
+.on{
+    background-color: green;
+}
+.off{
+    background-color: red;
+}
+.change{
+    width: 100px;
+    margin-top: 40px;
+}
+.color{
+    border:none;
+    height:30px;
+    width: 100%;
+    padding: 5px;
+    font-size:12px;
+    margin-top: 5px;
+    
+}

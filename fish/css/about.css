@@ -1,0 +1,43 @@
+.content{
+    width: 700px;
+}
+.story{
+    width: 350px;
+}
+.services {
+    width: 250px;
+
+}
+.services h2{
+    color: #e2931a;
+    font-size: 24px;
+}
+.services-ul{
+    list-style-type: disc;
+    color: #e2931a;
+    
+}
+.services-ul li{
+    margin-top: 20px;
+}
+
+.services-ul li::before {
+    content: "•"; 
+    color:#e2931a;
+    display: inline-block;
+     width: 8px;
+    margin-left: -1em;
+}
+.services-ul li a{
+    font-size: 16px;
+    color: #ffffff;
+    font-family: 'Merienda', cursive;
+    
+}
+.services-ul li a span{
+    color: #e2931a;
+    font-size: 20px;
+    padding-left: 10px;
+    text-shadow: 2px 2px #305c2b;
+    font-family: 'Merienda', cursive;
+}

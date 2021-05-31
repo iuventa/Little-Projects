@@ -1,0 +1,44 @@
+.main{
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 100px;
+}
+.content{
+    width: 50%;
+    
+}
+.contact{
+   width: 40%; 
+   margin-top: 30px;
+}
+.contact h3{
+    font-size: 30px;
+    color: #e2931a;
+}
+.contact-box{
+    width: 100%;
+    font-family: 'Merienda', cursive;
+}
+.contact-box h5{
+    font-size: 20px;
+    color: #e2931a;
+    margin-top: 20px;
+}
+.contact-box p{
+    font-size: 16px;
+    color: #ffffff;
+}
+.day{
+    font-size: 16px;
+    color: #ffffff;
+}
+.time{
+    font-size: 18px;
+    color: #e2931a;
+    margin-left: 10px;
+    text-shadow: 1px 1px #000000;
+}
+.form{
+    width: 45%;
+    margin-top: 50px;
+}

@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Merienda|Sarabun" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/about.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <article class="header">
+  
+            
+            <h1>
+                <div class="logo">
+                    <a href="#">
+                        <img src="images/logo.png" alt="logo">
+                    </a>
+                </div>
+            </h1>
+            
+            <nav>
+                <ul class="home-ul">
+                    <li class="border">
+                        <a href="index.html" >
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="about.html" class="li-active" >
+                            About Us
+                        </a></li>
+                    <li>
+                        <a href="news.html">
+                                News
+                        </a>
+                    </li>
+                    <li>
+                        <a href="partners.html">
+                                Partners
+                        </a>
+                    </li>
+                    <li>
+                        <a href="gallery.html">
+                            Gallery
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contact.html">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+                  
+        </article>
+    </header>
+    
+
+    <article class="slider">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                        <div class="slider-img">
+                                <img src="images/aquarium1.jpg" alt="">
+                        </div>
+                </div>
+                    
+         
+                <div class="item">
+                        <div class="slider-img">
+                                <img src="images/aquarium2.jpg" alt="">
+                        </div>
+                </div>
+                    
+            
+                <div class="item">
+                        <div class="slider-img">
+                                <img src="images/aquarium3.jpg" alt="">
+                        </div>
+                </div>
+                    
+            </div>
+                
+    </article>
+
+    <div class="main">
+        <article class="content">
+            <a href="about.html" class="story-a">
+            <section class="story">
+                <h2>
+                    
+                    Tbilisi Aquarium
+                </h2>
+                <p>
+                    Aqua is the only protagonist in Birth by Sleep whom Tetsuya Nomura did not have a point of reference to design from, and thus was designed from scratch. Later in the design process, Nomura became concerned that Aqua would not be popular, which drove his decision to make her more distinct in her personal bravery and combat abilities. Aqua is voiced by Megumi Toyoguchi in Japanese and Willa Holland in English. The character received mixed reviews from game critics upon her debut, citing boring plot lines and unenthusiastic voice acting combined with weak combat skills. However, her role in Kingdom Hearts 0.2 has been more positively received, with critics favoring her stronger characterization over previous depictions.
+                </p>
+            </section>
+        </a>
+        <a href="news.html" class="news-a">
+            <section class="services">
+                <h2>
+                    Services
+                </h2>
+                <ul class="services-ul">
+                    <li>
+                        <a href="#">
+                            Full Service Adult:
+                            <span>
+                                150 GEL 
+                            </span> 
+                            <br>
+                            Full Service Child:
+                            <span>
+                                100 GEL
+                            </span>
+                            <br>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            For 6 hours Adult:
+                            <span>
+                                100 GEL
+                            </span>
+                            <br>
+                            For 6 Hours Child
+                            <span>
+                                80 GEL
+                            </span>
+                            <br>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            For 3 hours Adult:
+                            <span>
+                                50 GEL
+                            </span>
+                            <br>
+                            For 3 Hours Child:
+                            <span>
+                                30 GEL
+                            </span>
+                            <br>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+        </a>
+            
+        </article>
+    </div>
+    
+    <footer>
+         <section class="copyright">
+            &#169; Test 2019 Jan
+         </section>
+         <section class="student">
+             <p>
+                 <a href="#">
+                    Salome Gachechiladze
+                </a>
+             </p>
+         </section>
+    </footer>
+
+
+   
+
+   
+    <div id="ex1" class="modal">
+        <p class="modal-p">  Thanks for SUBMIT. We got your Donation.</p>
+       
+    </div>
+          
+
+   
+
+      
+
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+<script>
+$('.title').click(function(){
+        
+        var height = $(this).height(); 
+        var mimateba = 250;
+        
+       
+                    
+        if ($(this).height()==250){
+            $(this).animate({'height':'100px',
+                     'margin-top':$(this).height()-mimateba  +'px'
+                    }, 500)
+                $('.title').removeClass('hidden');
+        }
+        else{
+            $(this).animate({'height':mimateba+'px',
+                     'margin-top':height-mimateba +'px'
+                    },500)
+             $('.title').addClass('hidden');
+        }
+
+    })
+</script>
+
+<script>
+$('#submit').click( function() {
+    $( "#dialog" ).dialog();
+  } );
+  </script>
+
+
+<script>
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    autoplay: true,
+    autoplayTimeout: 2000,   
+    responsive:{
+        0:{
+            items:1
+        },
+     
+    }
+})
+</script>
+</body>
+</html>
